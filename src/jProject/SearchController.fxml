@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jProject.SearchController">
+  <children>
+    <Pane layoutX="0.0" layoutY="0.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color:black&#10;">
+      <children>
+        <Label layoutX="181.0" layoutY="41.0" text="SEARCH CONTACT" textFill="WHITE">
+          <font>
+            <Font name="System Bold" size="30.0" />
+          </font>
+        </Label>
+        <TextField fx:id="txtSearch" layoutX="166.0" layoutY="124.0" prefHeight="31.951171875" prefWidth="279.0" promptText="Name or Phone Number" />
+        <Button fx:id="btnSearch" layoutX="252.0" layoutY="187.0" mnemonicParsing="false" onAction="#OnActionS" style="-fx-background-color:grey&#10;" text="Search" textFill="WHITE" />
+        <Label fx:id="lblError" layoutX="241.0" layoutY="335.0" text="" textFill="WHITE" >
+          <font>
+            <Font size="25.0" />
+          </font>
+        </Label>
+        <ImageView fitHeight="53.90234375" fitWidth="71.86979166666666" layoutX="112.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../pics/search.png" />
+          </image>
+        </ImageView>
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"jProject","l":"AddContactController"},{"l":"All Classes","url":"allclasses-index.html"},{"p":"jProject","l":"ContactDetailsController"},{"p":"jProject","l":"EddController"},{"p":"jProject","l":"fxMain"},{"p":"jProject","l":"PhonebookController"},{"p":"jProject","l":"SearchController"}]

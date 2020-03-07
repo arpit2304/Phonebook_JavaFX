@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jProject.EddController">
+  <children>
+    <Pane layoutX="0.0" layoutY="0.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color:black&#10;">
+      <children>
+        <Label layoutX="204.0" layoutY="37.0" text="EDIT CONTACT" textFill="#0066ff">
+          <font>
+            <Font name="System Bold" size="27.0" />
+          </font>
+        </Label>
+        <Label layoutX="66.0" layoutY="93.0" text="Your Name:" textFill="WHITE">
+          <font>
+            <Font name="System Bold" size="20.0" fx:id="x1" />
+          </font>
+        </Label>
+        <Label font="$x1" layoutX="66.0" layoutY="137.0" text="Your Number:" textFill="WHITE" />
+        <Label font="$x1" layoutX="68.0" layoutY="177.0" text="Your Email:" textFill="WHITE" />
+        <Button fx:id="btnSC" layoutX="149.0" layoutY="289.0" mnemonicParsing="false" onAction="#Sc" style="-fx-background-color:grey&#10;&#10;" text="Save Changes " textFill="WHITE">
+          <font>
+            <Font name="System Bold" size="17.0" fx:id="x2" />
+          </font>
+        </Button>
+        <Button fx:id="btnc" font="$x2" layoutX="341.0" layoutY="289.0" mnemonicParsing="false" onAction="#cancelD" style="-fx-background-color:grey&#10;&#10;" text="Cancel" textFill="WHITE" />
+            <TextField fx:id="txtEdname" layoutX="207.0" layoutY="93.0" />
+            <TextField fx:id="txtEdnum" layoutX="207.0" layoutY="137.0" />
+            <TextField fx:id="txtEdmail" layoutX="207.0" layoutY="185.0" />
+            <Label fx:id="lblEdite" layoutX="181.0" layoutY="351.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>
